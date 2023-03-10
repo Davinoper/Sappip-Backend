@@ -20,6 +20,6 @@
   "scripts": {
     "dev": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts",
     "build": "tsc",
-    "docker": "docker-compose up"
+    "docker": "docker-compose up --detach"
   }
 }
