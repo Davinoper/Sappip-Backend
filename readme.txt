@@ -1,11 +1,9 @@
-________Rodar container_________
-
-docker-compose up
-______________________________________________________________
-
-______________Para rodar o projeto____________________________
+____________Para rodar o projeto____________________________
 
 !Instalar o yarn
+
+#Roda container
+yarn docker
 
 #Instala as dependencias
 yarn install
