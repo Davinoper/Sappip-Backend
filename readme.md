@@ -21,3 +21,6 @@ yarn install
 ```
 yarn dev
 ```
+## Rotas Postman
+
+- sappip.postman_collection.json
