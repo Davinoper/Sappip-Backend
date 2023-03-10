@@ -1,4 +1,4 @@
-version: '3'
+version: '3.7'
 
 services:
   mongo:
@@ -8,8 +8,4 @@ services:
     ports:
       - "27017:27017"
     volumes:
-      - mongodb_data:/data/db
-
-volumes:
-  mongodb_data:
-    driver: local
+      - ./data/db:/data/db
